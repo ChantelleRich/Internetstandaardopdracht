@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Frank+Ruhl+Libre:wght@300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Spicy+Rice&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+*{box-sizing: border-box;}
+
+nav a {
+    display: inline-block;
+    font-family: monospace;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    font-style: normal;
+    color:black;
+    background-color:hsl(0, 100%, 85%);
+    padding: 1% 1em;
+    border: 1px solid hsl(0, 100%, 75%);
+    border-radius: 5px;
+    text-decoration-color: hsl(180, 100%, 0%, 0);
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color:white;
+    background-color: #ff4d8e;
+    text-decoration-color: rgb(255, 255, 255);
+   
+}
+
+nav a:active {
+    transform: translateY(1.2em);
+    transform:rotate(5deg)
+
+}
+a.currentPage{
+    background-color: rgb(216, 157, 233);
+    color: black;
+
+}
+
+body {
+    margin: 0 auto;
+    min-width: 10em;
+    max-width: 80vw;
+    background-color: rgb(255, 250, 198);
+}
+
+h1 {
+    font-family: "Spicy Rice", serif;
+  font-weight: 400;
+  font-size: 5em;
+  color:rgb(241, 85, 158);
+  text-align: center;
+
+}
+
+h2 {
+    font-family: "Frank Ruhl Libre", serif;
+  color:rgb(219, 31, 119);
+  font-size: 3.5em;
+  text-align: center;
+}
+
+h3 { 
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1.9em;
+    font-style: normal;
+    text-align: center;
+}
+header {
+    padding-top: 2em;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.7em;
+    text-align: center;
+
+}
+
+main img {
+    border: 5px solid rgb(175, 76, 149);
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.flex-horizontal{
+    display: flex;
+    align-items:top;
+    gap: 2em;
+}
